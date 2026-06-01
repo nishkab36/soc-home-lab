@@ -71,10 +71,10 @@ Detect modifications to Windows Run Registry Keys used for persistence.
 
 MITRE ATT&CK:
 
-* T1140 – Deobfuscate/Decode Files or Information
+T1218 – System Binary Proxy Execution
 
 Objective:
-Detect abuse of trusted Windows binaries commonly leveraged by attackers.
+Detect execution of CertUtil, a trusted Windows binary frequently abused by attackers for file transfer, encoding, decoding and payload staging activities.
 
 ### Detection 06 – Failed Logon Detection
 
